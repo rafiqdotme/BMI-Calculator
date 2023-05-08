@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    /* padding: 20px; */
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    min-height: 35px;
+}
+.result-p{
+    background-color: #FFF;
+    padding-bottom: 4px;
+    border-radius: 3px;
+}
+#result>.result-p>span{
+    padding: 0 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px #FFF;
+}
+.info{
+    font-size: 13px;
+}

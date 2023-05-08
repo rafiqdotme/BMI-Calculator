@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="toastify.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <p class="copyright">By <a href="https://www.facebook.com/md.rafiq.net/">MD. Rafiqul Islam</a></p>
+        <form>
+            <label for="weightInput">Weight (kg):</label>
+            <input type="number" id="weightInput" placeholder="Enter weight">
+
+            <label for="heightInput">Height (cm):</label>
+            <input type="number" id="heightInput" placeholder="Enter height">
+
+            <button id="calculateBtn" type="button">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    
+
+    <script src="toastify.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
